@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 4 Fun 
 
 You can use the [editor on GitHub](https://github.com/cse-vr-capstone-team-4/website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
