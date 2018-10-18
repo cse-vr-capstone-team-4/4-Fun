@@ -13,7 +13,7 @@ Our project is an Magic Leap AR "island colonization" video game where the playe
 - **Xiuxing Lao**
     - A senior student in Computer Science at the University of Washington. 
 - **Yuyang Ge**
-    - I am a senior studying computer science at UW Seattle. 
+    - I am a senior studying computer science at UW Seattle. I am also minor in Music and Math, concentrated in biopsychology. I have developed games in the past for iOS system but this is the first time I get the oppotunity to development a game in AR. I believe that VR/AR will be an integral part of the furture, and I am very excited to be working with a team to make a strategy game of our own.  
 
 ### PRD Link
 https://docs.google.com/document/d/1tK8rWAsgP0X3kz5zsiT1drsX3x8JszOWKTgnmHstGJ0/edit?usp=sharing
