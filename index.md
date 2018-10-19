@@ -11,7 +11,7 @@ Our project is an Magic Leap AR "island colonization" video game where the playe
 - **Charles Mihran**
     - I am a senior in computer science at UW Settle, but I'm initially from the Bay Area in California. I grew up loving playing video games ranging from Halo to Pokemon and have been interested in game development for a while. I've made some games on my own but am excited to work on a team to creating a game in AR. When I was younger I loved games from the "Command and Conquer" series and am excited to make a strategy game of our own.
 - **Xiuxing Lao**
-    - I am a senior student in Computer Science at the University of Washington. 
+    - I am a senior student in Computer Science at the University of Washington. I always believe that great story can be told in AR.
 - **Yuyang Ge**
     - I am a senior studying computer science at UW Seattle. I am also minor in Music and Math, concentrated in biopsychology. I have developed games in the past for iOS system but this is the first time I get the oppotunity to development a game in AR. I believe that VR/AR will be an integral part of the furture, and I am very excited to be working with a team to make a strategy game of our own.
 
