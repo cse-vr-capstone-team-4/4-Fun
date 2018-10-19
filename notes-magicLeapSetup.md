@@ -8,7 +8,7 @@ Both are described below.
 Lmk if you have any questions / issues! 
 Note that the Magic Leap is still very much in a beta (or even alpha) state, so updates are bound to happen often.
 
--Ethan
+- Ethan
 Magic Leap (w/ Unity) Installation Instructions
 
 - Download the Unity
