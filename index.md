@@ -7,7 +7,7 @@ Our project is an Magic Leap AR "island colonization" video game where the playe
 
 ### Team Bio
 - **Anny Kong**
-    - TODO
+    - I am a senior at UW majoring in computer science. While I am a big fan of VR/AR as well as great games, it's super exiciting to make a game with AR technologies.
 - **Charles Mihran**
     - I am a senior in computer science at UW Settle, but I'm initially from the Bay Area in California. I grew up loving playing video games ranging from Halo to Pokemon and have been interested in game development for a while. I've made some games on my own but am excited to work on a team to creating a game in AR. When I was younger I loved games from the "Command and Conquer" series and am excited to make a strategy game of our own.
 - **Xiuxing Lao**
