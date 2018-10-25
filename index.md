@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Website
 tagline: VR Capstone Group from Team 4-Fun at UW CSE
 ---
