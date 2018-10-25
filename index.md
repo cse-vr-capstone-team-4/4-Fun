@@ -4,9 +4,9 @@ title: Website
 tagline: VR Capstone Group from Team 4-Fun at UW CSE
 ---
 
-## CSE Capstone Team 4 Website (4 Fun) 
+## CSE VR Capstone Team 4 
 
-### Description of project
+### Project Description
 
 Our project is an Magic Leap AR "island colonization" video game where the player attempts to take over floating islands by defeating enemies. The player can switch between a high-level overview of the world where they distribute units to different floating islands and a low-level view where they actually walk onto the island and watch the battle themselves.
 
@@ -25,9 +25,10 @@ Our project is an Magic Leap AR "island colonization" video game where the playe
 [Product Requirement Documents](https://docs.google.com/document/d/1tK8rWAsgP0X3kz5zsiT1drsX3x8JszOWKTgnmHstGJ0/edit?usp=sharing)
 
 
-### Hype/demo video (later on in the quarter)
+### Hype/Demo video
 Coming soon
 
 ### Weekly updates on progress as blog posts
+#### Week 4
 test
 
