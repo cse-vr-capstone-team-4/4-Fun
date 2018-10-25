@@ -26,4 +26,4 @@ Coming soon
 
 ## Weekly Blog Posts
 ### Week 4: Island Rendering and RTS Research
-This week we've focused primarily on figuring out how we want to render islands in the magic leap AR space, as well as learning the basics of the RTS engine we'll be using. As islands are the main part of the game we wanted to make sure that they will look good and that the movement around them feels fluid.
+This week we've focused primarily on figuring out how we want to render islands in the magic leap AR space, as well as learning the basics of the RTS engine we'll be using. As islands are the main part of the game we wanted to make sure that they will look good and that the movement around them feels fluid. We've been able to place the islands in the 3D space around the player and are looking more into the modification of the islands. 
