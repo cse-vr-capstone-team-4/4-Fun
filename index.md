@@ -4,11 +4,11 @@ title: Island Warfare
 tagline: VR Capstone Group from Team 4-Fun at UW CSE
 ---
 
-### Project Description
+## Project Description
 
 Our project is an Magic Leap AR "island colonization" video game where the player attempts to take over floating islands by defeating enemies. The player can switch between a high-level overview of the world where they distribute units to different floating islands and a low-level view where they actually walk onto the island and watch the battle themselves.
 
-### Team Bio
+## Team Bio
 - **Anny Kong**
     - I am a senior at UW majoring in computer science. While I am a big fan of VR/AR as well as great games, it's super exiciting to make a game with AR technologies.
 - **Charles Mihran**
@@ -18,14 +18,13 @@ Our project is an Magic Leap AR "island colonization" video game where the playe
 - **Yuyang Ge**
     - I am a senior studying computer science at UW Seattle. I am also minor in Music and Math, concentrated in biopsychology. I have developed games in the past for iOS system but this is the first time I get the oppotunity to development a game in AR. I believe that VR/AR will be an integral part of the furture, and I am very excited to be working with a team to make a strategy game of our own.
 
-### PRD Link
+## PRD Link
 [Product Requirement Documents](https://docs.google.com/document/d/1tK8rWAsgP0X3kz5zsiT1drsX3x8JszOWKTgnmHstGJ0/edit?usp=sharing)
 
-
-### Hype/Demo video
+## Hype/Demo video
 Coming soon
 
-### Weekly Blog Posts
-#### Week 4
+## Weekly Blog Posts
+### Week 4
 test
 
