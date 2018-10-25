@@ -1,15 +1,12 @@
 ---
 layout: default
-title: Website
+title: Island Warfare
 tagline: VR Capstone Group from Team 4-Fun at UW CSE
 ---
-
-## CSE VR Capstone Team 4 
 
 ### Project Description
 
 Our project is an Magic Leap AR "island colonization" video game where the player attempts to take over floating islands by defeating enemies. The player can switch between a high-level overview of the world where they distribute units to different floating islands and a low-level view where they actually walk onto the island and watch the battle themselves.
-
 
 ### Team Bio
 - **Anny Kong**
