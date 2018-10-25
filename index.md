@@ -25,6 +25,5 @@ Our project is an Magic Leap AR "island colonization" video game where the playe
 Coming soon
 
 ## Weekly Blog Posts
-### Week 4
-test
-
+### Week 4: Island Rendering and RTS Research
+This week we've focused primarily on figuring out how we want to render islands in the magic leap AR space, as well as learning the basics of the RTS engine we'll be using. As islands are the main part of the game we wanted to make sure that they will look good and that the movement around them feels fluid.
