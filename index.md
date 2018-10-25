@@ -23,6 +23,5 @@ Our project is an Magic Leap AR "island colonization" video game where the playe
 Coming soon
 
 ### Weekly updates on progress as blog posts
-Coming soon
-
+test
 
