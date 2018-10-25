@@ -1,3 +1,9 @@
+---
+layout: page
+title: Website
+tagline: VR Capstone Group from Team 4-Fun at UW CSE
+---
+
 ## CSE Capstone Team 4 Website (4 Fun) 
 
 ### Description of project
