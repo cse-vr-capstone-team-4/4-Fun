@@ -31,7 +31,7 @@ Coming soon
 
 **Progress**: We finished the design for smaller islands (where the units will be placed and fights). First, we brought the assets package for design of the islands, but it included many demos, materials, and textures which we could choose from. Eventually we settle on a very simple design of the islands with big open space which the fights could take place. One of the struggles we faced was that all the materials were all in one level of hierarchy which made scale and move the entire island very difficult. We asked for help and eventually figure out how to create new objects to included different materials for different levels of hierarchy. Another struggle is that we could not figure out where to place the camera. It took us some experiments to know that the rotation of the initial position of the camera should be 0 and we should only change the y-axis of the camera position. Below is the screen shot of the islands in perspective to x, y, and z axis. 
 
-![Week 4 Screenshot](/week4sceenshot.jpg)
+![Week 4 Screenshot](week4sceenshot.jpg)
 
 ZOOM IN/OUT TODO
 
