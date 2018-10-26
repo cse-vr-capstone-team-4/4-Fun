@@ -1,4 +1,4 @@
-# useful links
+# Useful links
 - Smooth effect (Zoom in/out):
 https://docs.unity3d.com/ScriptReference/Mathf.SmoothStep.html
 
