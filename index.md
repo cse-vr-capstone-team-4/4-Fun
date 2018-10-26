@@ -38,13 +38,19 @@ After setting up the scene of our game, the next thing that we do was to figure 
 **Plan for next week**: 
 Next week we plan to dive more into the "RTS" aspect of things. We want to experiment with adding units in some form to the islands. We'll try to implement some of the character models we plan to purchase and see if we can get them walking around. We also want to become a lot more familiar with how our chosen RTS engine will work. If we can understand the engine well then that will enable us to implement more complexity and more interesting gameplay. 
 
+---
+
 ### Week 3
 #### Website, PRD, and Gameplay Plans
 We created our website and set up the inital draft of our PRD, or the project requirements document. We've laid out weekly milestones and member responsibilies that will hopefully help us stay on track while we get started on developing our game. We've also laid out our plans for gameplay to have a more concrete understanding on how we want the game to be played. We've decided that each island will have their own battle happening that the player must manage. Each battle will consist of the player attempting to take over the island by destroying all the enemies on it. We also want to have some basic base-building in our game, such as having buildings that generate resources for the player and buildings that let the player spend resources to create units. Taking over the island will include destroying the enemy player's units and buildings. After an island is conquered, we're envisioning some way for the player to transfer units to new islands to aid in the conquering of the new islands. We've also decided on a general aesthetic theme for the game. Instead of a space theme we've gone with a more fantasy style. We've found assets that include stuff like knights, monsters, and medieval buildings in a low-poly style to keep our assets consistent.
 
+---
+
 ### Week 2
 #### Project decided
 We decided on a project! Initially we wanted to have some sort of space RTS in VR, but decided that it wasn't novel enough given that games like Lazer Bait already exist. After trying out the Magic Leap, we became excited at the idea of making an AR game. We liked our "planet colonization" game idea but decided to switch the planets into islands to make the game aesthetic more unique. We also decided that part of the novel gameplay of our game will be how the player interacts with the island. The play will see floating islands around them and have the option to zoom-in to them and get a larger field of the battlefield, walking over everything to get a better view. They can then zoom-out to get a larger view of all the islands. 
+
+---
 
 ### Week 1
 #### Hello world! 
