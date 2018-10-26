@@ -33,6 +33,7 @@ Coming soon
 SCREEN SHOT
 
 ZOOM IN/OUT TODO
+
 **Plan for next week**: 
 
 ### Week 3
