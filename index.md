@@ -23,7 +23,7 @@ ___
 ___
 
 ## PRD Link
-[Product Requirement Documents](https://docs.google.com/document/d/1tK8rWAsgP0X3kz5zsiT1drsX3x8JszOWKTgnmHstGJ0/edit?usp=sharing)
+[PRDv2](https://docs.google.com/document/d/1tK8rWAsgP0X3kz5zsiT1drsX3x8JszOWKTgnmHstGJ0/edit?usp=sharing)
 
 ___
 
