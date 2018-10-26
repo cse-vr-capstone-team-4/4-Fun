@@ -1,0 +1,9 @@
+<manifest xmlns:ml="magicleap" ml:developer_id="aebb52a2-3b30-4e35-bddf-9bef3d3a1255" ml:package="com.company.hellocube" ml:version_code="1" ml:version_name="">
+  <application ml:sdk_version="1.0" ml:visible_name="Hello Cube">
+    <uses-privilege ml:name="LowLatencyLightwear" />
+    <uses-privilege ml:name="ControllerPose" />
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="ScreensImmersive" ml:visible_name="Hello Cube">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+  </application>
+</manifest>
