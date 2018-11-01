@@ -33,6 +33,19 @@ Coming soon
 ___
 
 ## Weekly Blog Posts
+### Week 5
+#### RTS Battle
+**Introduction**: 
+
+![Week 5 RTS Action](week5_good_action.jpg)
+
+![Week 5 Castle Destruction](week5_destroy_castle.jpg)
+
+**Progress**: 
+
+**Plan for next week**: 
+
+
 ### Week 4
 #### Island Rendering and RTS Research
 **Introduction**: This week we've focused primarily on figuring out how we want to render islands in the magic leap AR space, as well as learning the basics of the RTS engine we'll be using. As islands are the main part of the game we wanted to make sure that they will look good and that the movement around them feels fluid. We've been able to place the islands in the 3D space around the player and are looking more into the modification of the islands. 
@@ -43,8 +56,7 @@ ___
 
 After setting up the scene of our game, the next thing that we do was to figure out how to connect the Magic Leap controller to our current scene, so that player could have some simple interactions with the island. With the help of faculty, we sucessfully achieved one of the key feature of the game, "Zoom in and Zoom out" of the island. That means that when the player click the bumper on the controller, the island can either gradually move away from the player or approach the player until he is in the middle of this island. However, current "Zoom in and Zoom out" can only be applied to just one island, so the "Zoom in and Zoom out" still need further improvement in the future.
 
-**Plan for next week**: 
-Next week we plan to dive more into the "RTS" aspect of things. We want to experiment with adding units in some form to the islands. We'll try to implement some of the character models we plan to purchase and see if we can get them walking around. We also want to become a lot more familiar with how our chosen RTS engine will work. If we can understand the engine well then that will enable us to implement more complexity and more interesting gameplay. 
+**Plan for next week**: Next week we plan to dive more into the "RTS" aspect of things. We want to experiment with adding units in some form to the islands. We'll try to implement some of the character models we plan to purchase and see if we can get them walking around. We also want to become a lot more familiar with how our chosen RTS engine will work. If we can understand the engine well then that will enable us to implement more complexity and more interesting gameplay. 
 
 ___
 
@@ -63,4 +75,3 @@ ___
 ### Week 1
 #### Hello world! 
 We've met our group, set up some collaborationt tools and are brainstorming possible ideas for our project. More updates to follow through these blog posts as we continue to make more progress.
-
