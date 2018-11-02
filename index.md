@@ -43,7 +43,40 @@ ___
 
 **Progress**: 
 
+We finished initial island design with assets. We made some modifications to the original design, i.e. making lands to floating islands, adjusting their scales and rotations. Then we combined two scenes and built the combined scene and deployed it to the magic leap successfully. For now, we have a home island and 4 enemy islands around it:
+
+![Week 5 Islands Initial Design 1](week5_Islands_Initial_Design1.png)
+
+![Week 5 Islands Initial Design 2](week5_Islands_Initial_Design2.png)
+
+Then, we made the outline of a single island possible. Once enabled, 1 out of 5 islands could be highlighted in yellow. The entire island could be shown as selected to make the interaction between ray and island happen.
+
+![Week 5 Island_Outline 1](week5_outline1.png)
+
+![Week 5 Island Outline 2](week5_outline2.png)
+
+We also display the controller in our view and users can see a ray coming out of the controller clearly. So it helps with the island selection.
+
+![Week 5 Controller Visualization 1](week5_Controller_visualization.png)
+
 **Plan for next week**: 
+
+1. For RTS, we plan to clone/Spawn soldiers at specified position/positions
+	- get the soldier GameObject
+	- create a public field under GameObject
+	- attach soldier to the field under some GameObject
+	-  i.e. When OnButtonDown, 
+	```
+	    // spawn new soldier
+	   GameObject newObject = Instantiate(cloneObject);             
+	   // at some position of the island             
+	   newObject.transform.parent = GameObject.Find("GameObject1").transform;
+	```
+
+2. For controller, when the ray cast has a hit/makes a selection, hightlight the target island.
+- VirtualPointer.cs  — for highlight/not
+- Use Raycast() to check and RaycastHit[] to store hit. 
+- Go through transform hierarchy to get GameObject to hightlight
 
 
 ### Week 4
