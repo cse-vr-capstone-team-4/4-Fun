@@ -55,7 +55,7 @@ Then, we made the outline of a single island possible. Once enabled, 1 out of 5 
 
 ![Week 5 Island Outline 2](week5/week5_outline2.png)
 
-![Week 5 Island Highlight](week5/Screen Shot 2018-11-01 at 4.46.12 PM.png)
+![Week 5 Island Highlight](week5/week5_red_outline.png)
 
 We also display the controller in our view and users can see a ray coming out of the controller clearly. So it helps with the island selection.
 
