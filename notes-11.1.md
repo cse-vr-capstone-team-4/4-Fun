@@ -1,6 +1,8 @@
 ## CSE481 notes 11.1.2018
 
-Our scene is under `Assets/PolygonMini_Fantasy/Demo/Demo_Hex_Islands`
+- Our scene is under `Assets/PolygonMini_Fantasy/Demo/Demo_Hex_Islands`
+
+- [Unity doc](https://docs.unity3d.com/ScriptReference/Transform.html)
 
 ### TODOs:
 1. Suggestion for soldiers moving across islands—>bridge?
