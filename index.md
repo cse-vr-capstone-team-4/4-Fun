@@ -91,7 +91,7 @@ We also display the controller in our view and users can see a ray coming out of
 
 After setting up the scene of our game, the next thing that we do was to figure out how to connect the Magic Leap controller to our current scene, so that player could have some simple interactions with the island. With the help of faculty, we sucessfully achieved one of the key feature of the game, "Zoom in and Zoom out" of the island. That means that when the player click the bumper on the controller, the island can either gradually move away from the player or approach the player until he is in the middle of this island. However, current "Zoom in and Zoom out" can only be applied to just one island, so the "Zoom in and Zoom out" still need further improvement in the future.
 
-![week4_zoom_in/out](week4/week4_Zoom_in/out.png)
+![week4_Zoom_In/Out](week4/week4_Zoom_in_out.png)
 
 **Plan for next week**: Next week we plan to dive more into the "RTS" aspect of things. We want to experiment with adding units in some form to the islands. We'll try to implement some of the character models we plan to purchase and see if we can get them walking around. We also want to become a lot more familiar with how our chosen RTS engine will work. If we can understand the engine well then that will enable us to implement more complexity and more interesting gameplay. 
 
