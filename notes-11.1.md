@@ -1,7 +1,8 @@
-CSE481 notes 11.1.2018
-Our scene is under Assets/PolygonMini_Fantasy/Demo/Demo_Hex_Islands
+## CSE481 notes 11.1.2018
 
-TODOs:
+Our scene is under `Assets/PolygonMini_Fantasy/Demo/Demo_Hex_Islands`
+
+### TODOs:
 1. Suggestion for soldiers moving across islands—>bridge?
 2. Attach the effects to its location (TODO, find out how to scale size of effects)
 3. Clone/Spawn soldiers at xxx position
@@ -45,7 +46,7 @@ TODOs:
 ```
 	
 
-Problems:
+### Problems:
 * Where does inputController come from?
 	In `Assets/MagicLeap/Examples/Scenes`
 	
