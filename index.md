@@ -39,25 +39,25 @@ ___
 
 ![Week 5 RTS Action](week5_good_action.png)
 
-![Week 5 Castle Destruction](week5_destroy_castle.png)
+![Week 5 Castle Destruction](week5/week5_destroy_castle.png)
 
 **Progress**: 
 
 We finished initial island design with assets. We made some modifications to the original design, i.e. making lands to floating islands, adjusting their scales and rotations. Then we combined two scenes and built the combined scene and deployed it to the magic leap successfully. For now, we have a home island and 4 enemy islands around it:
 
-![Week 5 Islands Initial Design 1](week5_Islands_Initial_Design1.png)
+![Week 5 Islands Initial Design 1](week5/week5_Islands_Initial_Design1.png)
 
-![Week 5 Islands Initial Design 2](week5_Islands_Initial_Design2.png)
+![Week 5 Islands Initial Design 2](week5/week5_Islands_Initial_Design2.png)
 
 Then, we made the outline of a single island possible. Once enabled, 1 out of 5 islands could be highlighted in yellow. The entire island could be shown as selected to make the interaction between ray and island happen.
 
-![Week 5 Island_Outline 1](week5_outline1.png)
+![Week 5 Island_Outline 1](week5/week5_outline1.png)
 
-![Week 5 Island Outline 2](week5_outline2.png)
+![Week 5 Island Outline 2](week5/week5_outline2.png)
 
 We also display the controller in our view and users can see a ray coming out of the controller clearly. So it helps with the island selection.
 
-![Week 5 Controller Visualization 1](week5_Controller_visualization.png)
+![Week 5 Controller Visualization 1](week5/week5_Controller_visualization.png)
 
 **Plan for next week**: 
 
@@ -85,7 +85,7 @@ We also display the controller in our view and users can see a ray coming out of
 
 **Progress**: We finished the design for smaller islands (where the units will be placed and fights). First, we brought the assets package for design of the islands, but it included many demos, materials, and textures which we could choose from. Eventually we settle on a very simple design of the islands with big open space which the fights could take place. One of the struggles we faced was that all the materials were all in one level of hierarchy which made scale and move the entire island very difficult. We asked for help and eventually figure out how to create new objects to included different materials for different levels of hierarchy. Another struggle is that we could not figure out where to place the camera. It took us some experiments to know that the rotation of the initial position of the camera should be 0 and we should only change the y-axis of the camera position. Below is the screen shot of the islands in perspective to x, y, and z axis. 
 
-![Week 4 Screenshot](week4screenshot.jpg)
+![Week 4 Screenshot](week4/week4screenshot.jpg)
 
 After setting up the scene of our game, the next thing that we do was to figure out how to connect the Magic Leap controller to our current scene, so that player could have some simple interactions with the island. With the help of faculty, we sucessfully achieved one of the key feature of the game, "Zoom in and Zoom out" of the island. That means that when the player click the bumper on the controller, the island can either gradually move away from the player or approach the player until he is in the middle of this island. However, current "Zoom in and Zoom out" can only be applied to just one island, so the "Zoom in and Zoom out" still need further improvement in the future.
 
