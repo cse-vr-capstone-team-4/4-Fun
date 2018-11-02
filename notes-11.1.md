@@ -4,9 +4,12 @@
 
 - [Unity doc](https://docs.unity3d.com/ScriptReference/Transform.html)
 
+- [AR notes](https://docs.google.com/document/d/1Oft5vte5vKhHIeudbCHiUG16owbOgPnpp73Cy2_kIxo/edit)
+
 ### TODOs:
 1. Suggestion for soldiers moving across islands—>bridge?
 2. Attach the effects to its location (TODO, find out how to scale size of effects)
+	- http://prof.johnpile.com/2015/11/02/unity-scaling-particles/
 3. Clone/Spawn soldiers at xxx position
 	 - get the soldier GameObject, i.e. `Assets/MagicLeap/Examples/Models/Planets/Meshes`
 	- create a public field under GameObject, i.e. `public GameObject cloneObject;` in ControllerScript.cs
