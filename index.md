@@ -49,11 +49,13 @@ We finished initial island design with assets. We made some modifications to the
 
 ![Week 5 Islands Initial Design 2](week5/week5_Islands_Initial_Design2.png)
 
-Then, we made the outline of a single island possible. Once enabled, 1 out of 5 islands could be highlighted in yellow. The entire island could be shown as selected to make the interaction between ray and island happen.
+Then, we made the outline of a single island possible. Once enabled, 1 out of 5 islands could be highlighted in yellow. The entire island could be shown as selected to make the interaction between ray and island happen. When the island is selected, it's outline is being highlighted as shown below. 
 
 ![Week 5 Island_Outline 1](week5/week5_outline1.png)
 
 ![Week 5 Island Outline 2](week5/week5_outline2.png)
+
+![Screen Shot 2018-11-01 at 4.46.12 PM](week5/Screen Shot 2018-11-01 at 4.46.12 PM.png)
 
 We also display the controller in our view and users can see a ray coming out of the controller clearly. So it helps with the island selection.
 
