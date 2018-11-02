@@ -37,7 +37,7 @@ ___
 #### RTS Battle
 **Introduction**: 
 
-![Week 5 RTS Action](week5_good_action.png)
+![Week 5 RTS Action](week5/week5_good_action.png)
 
 ![Week 5 Castle Destruction](week5/week5_destroy_castle.png)
 
