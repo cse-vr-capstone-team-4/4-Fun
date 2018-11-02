@@ -75,9 +75,28 @@ namespace MagicLeap
             if (!_isGrabbing)
             {
                 RaycastHit[] hit = new RaycastHit[1];
+                // RayCast
+                // RayCastAll
                 if (Physics.RaycastNonAlloc(_pointerRay.position, _pointerRay.forward, hit) > 0)
                 {
                     MediaPlayerButton wb = hit[0].transform.GetComponent<MediaPlayerButton>();
+
+                    GameObject g = hit[0].transform.gameObject;
+                    GameObject g_parent = g.transform.parent.gameObject;
+
+                    while (g_parent.transform.parent.gameObject.name != "Scene")
+                    {
+                        g = g_parent;
+                        g_parent = g.transform.parent.gameObject;
+                    }
+
+                    //g should have the full island
+
+                    Outline o = g.GetComponent<Outline>();
+
+                    if (!o.isActiveAndEnabled)
+                        o.enabled = true;
+
                     if (wb != null)
                     {
                         if (_lastButtonHit == null)
@@ -123,6 +142,10 @@ namespace MagicLeap
                 {
                     _lastButtonHit = null;
                     ClearPointer();
+
+                    //clear all outlines
+
+                    
                 }
             }
             else if (_isGrabbing)
