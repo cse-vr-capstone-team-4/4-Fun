@@ -44,6 +44,8 @@ namespace MagicLeap
 
         private MediaPlayerButton _lastButtonHit;
         private bool _isGrabbing = false;
+
+        private GameObject[] islands;
         #endregion // Private Properties
 
         #region Unity Methods
@@ -54,6 +56,12 @@ namespace MagicLeap
                 Debug.LogError("Error: VirtualPointer._controllerConnectionHandler is not set, disabling script.");
                 enabled = false;
                 return;
+            }
+
+            islands = new GameObject[5];
+            for (int i = 1; i <= 5; i++)
+            {
+                islands[i] = GameObject.Find("GameObject" + i);
             }
 
             MLInput.OnControllerButtonDown += HandleControllerButtonDown;
@@ -79,10 +87,10 @@ namespace MagicLeap
                 // RayCastAll
                 if (Physics.RaycastNonAlloc(_pointerRay.position, _pointerRay.forward, hit) > 0)
                 {
-                    MediaPlayerButton wb = hit[0].transform.GetComponent<MediaPlayerButton>();
+                    //MediaPlayerButton wb = hit[0].transform.GetComponent<MediaPlayerButton>();
 
-                    GameObject g = hit[0].transform.gameObject;
-                    GameObject g_parent = g.transform.parent.gameObject;
+                    GameObject g = hit[0].transform.gameObject; //  "GrameObject1-5"
+                    GameObject g_parent = g.transform.parent.gameObject; // "Scene"
 
                     while (g_parent.transform.parent.gameObject.name != "Scene")
                     {
@@ -90,61 +98,76 @@ namespace MagicLeap
                         g_parent = g.transform.parent.gameObject;
                     }
 
-                    //g should have the full island
-
+                    // g should have the full island
+                    // Outline of the full island
                     Outline o = g.GetComponent<Outline>();
 
-                    if (!o.isActiveAndEnabled)
-                        o.enabled = true;
+                    // Check for null
+                    if (o != null) {
+                        Debug.Log("Hit " + hit[0].collider.gameObject.name);
+                        if (!o.isActiveAndEnabled)
+                            o.enabled = true;
+                    }
 
-                    if (wb != null)
-                    {
-                        if (_lastButtonHit == null)
-                        {
-                            if (wb.OnRaycastEnter != null)
-                            {
-                                wb.OnRaycastEnter(hit[0].point);
-                            }
-                            _lastButtonHit = wb;
-                            _pointerLight.color = _pointerLightColorHit;
-                        }
-                        else if (_lastButtonHit == wb)
-                        {
-                            if (_lastButtonHit.OnRaycastContinue != null)
-                            {
-                                _lastButtonHit.OnRaycastContinue(hit[0].point);
-                            }
-                        }
-                        else
-                        {
-                            if (_lastButtonHit.OnRaycastExit != null)
-                            {
-                                _lastButtonHit.OnRaycastExit(hit[0].point);
-                            }
-                            _lastButtonHit = null;
-                        }
-                    }
-                    else
-                    {
-                        if (_lastButtonHit != null)
-                        {
-                            if (_lastButtonHit.OnRaycastExit != null)
-                            {
-                                _lastButtonHit.OnRaycastExit(hit[0].point);
-                            }
-                            _lastButtonHit = null;
-                        }
-                        _pointerLight.color = _pointerLightColorNoHit;
-                    }
+
+
+                    //if (wb != null)
+                    //{
+                    //    if (_lastButtonHit == null)
+                    //    {
+                    //        if (wb.OnRaycastEnter != null)
+                    //        {
+                    //            wb.OnRaycastEnter(hit[0].point);
+                    //        }
+                    //        _lastButtonHit = wb;
+                    //        _pointerLight.color = _pointerLightColorHit;
+                    //    }
+                    //    else if (_lastButtonHit == wb)
+                    //    {
+                    //        if (_lastButtonHit.OnRaycastContinue != null)
+                    //        {
+                    //            _lastButtonHit.OnRaycastContinue(hit[0].point);
+                    //        }
+                    //    }
+                    //    else
+                    //    {
+                    //        if (_lastButtonHit.OnRaycastExit != null)
+                    //        {
+                    //            _lastButtonHit.OnRaycastExit(hit[0].point);
+                    //        }
+                    //        _lastButtonHit = null;
+                    //    }
+                    //}
+                    //else
+                    //{
+                    //    if (_lastButtonHit != null)
+                    //    {
+                    //        if (_lastButtonHit.OnRaycastExit != null)
+                    //        {
+                    //            _lastButtonHit.OnRaycastExit(hit[0].point);
+                    //        }
+                    //        _lastButtonHit = null;
+                    //    }
+                    //    _pointerLight.color = _pointerLightColorNoHit;
+                    //}
                     UpdatePointer(hit[0].point);
                 }
                 else
                 {
-                    _lastButtonHit = null;
+                    Debug.Log("Did not hit");
+                    //_lastButtonHit = null;
                     ClearPointer();
 
                     //clear all outlines
-
+                    foreach (GameObject island in islands) 
+                    {
+                        Outline outline = island.GetComponent<Outline>();
+                        if (outline.isActiveAndEnabled) 
+                        {
+                            Debug.Log("Clear outline of " + island.name);
+                            outline.enabled = false;
+                        }
+                    }
                     
                 }
             }
@@ -177,7 +200,7 @@ namespace MagicLeap
             Vector3 pointerScale = _pointerRay.localScale;
             pointerScale.z = 1.0f;
             _pointerRay.localScale = pointerScale;
-
+            
             _pointerLight.transform.position = transform.position;
             _pointerLight.color = _pointerLightColorNoHit;
         }
