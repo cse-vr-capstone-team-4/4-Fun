@@ -1,6 +1,11 @@
 ﻿
+<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+=======
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+>>>>>>> 647f66010ce0c85c53bd9015b6b9928fa3094373
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "small_islands", "Assembly-CSharp.csproj", "{EC8E29FD-C77D-E23B-E5D0-724BAB96A41C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "small_islands", "Assembly-CSharp-Editor.csproj", "{17177F89-7550-5293-39FE-0635FEEEF519}"
@@ -23,7 +28,10 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
+=======
+>>>>>>> 647f66010ce0c85c53bd9015b6b9928fa3094373
 EndGlobal

@@ -44,8 +44,11 @@ namespace MagicLeap
 
         private MediaPlayerButton _lastButtonHit;
         private bool _isGrabbing = false;
+<<<<<<< HEAD
+=======
 
         private GameObject[] islands;
+>>>>>>> 7fdb22636fd677fb9926b2a7e724ddf5757a1382
         #endregion // Private Properties
 
         #region Unity Methods
@@ -58,12 +61,15 @@ namespace MagicLeap
                 return;
             }
 
+<<<<<<< HEAD
+=======
             islands = new GameObject[5];
             for (int i = 1; i <= 5; i++)
             {
                 islands[i] = GameObject.Find("GameObject" + i);
             }
 
+>>>>>>> 7fdb22636fd677fb9926b2a7e724ddf5757a1382
             MLInput.OnControllerButtonDown += HandleControllerButtonDown;
             MLInput.OnControllerButtonUp += HandleControllerButtonUp;
             MLInput.OnTriggerDown += HandleTriggerDown;
@@ -83,6 +89,50 @@ namespace MagicLeap
             if (!_isGrabbing)
             {
                 RaycastHit[] hit = new RaycastHit[1];
+<<<<<<< HEAD
+                if (Physics.RaycastNonAlloc(_pointerRay.position, _pointerRay.forward, hit) > 0)
+                {
+                    MediaPlayerButton wb = hit[0].transform.GetComponent<MediaPlayerButton>();
+                    if (wb != null)
+                    {
+                        if (_lastButtonHit == null)
+                        {
+                            if (wb.OnRaycastEnter != null)
+                            {
+                                wb.OnRaycastEnter(hit[0].point);
+                            }
+                            _lastButtonHit = wb;
+                            _pointerLight.color = _pointerLightColorHit;
+                        }
+                        else if (_lastButtonHit == wb)
+                        {
+                            if (_lastButtonHit.OnRaycastContinue != null)
+                            {
+                                _lastButtonHit.OnRaycastContinue(hit[0].point);
+                            }
+                        }
+                        else
+                        {
+                            if (_lastButtonHit.OnRaycastExit != null)
+                            {
+                                _lastButtonHit.OnRaycastExit(hit[0].point);
+                            }
+                            _lastButtonHit = null;
+                        }
+                    }
+                    else
+                    {
+                        if (_lastButtonHit != null)
+                        {
+                            if (_lastButtonHit.OnRaycastExit != null)
+                            {
+                                _lastButtonHit.OnRaycastExit(hit[0].point);
+                            }
+                            _lastButtonHit = null;
+                        }
+                        _pointerLight.color = _pointerLightColorNoHit;
+                    }
+=======
                 // RayCast
                 // RayCastAll
                 if (Physics.RaycastNonAlloc(_pointerRay.position, _pointerRay.forward, hit) > 0)
@@ -150,10 +200,15 @@ namespace MagicLeap
                     //    }
                     //    _pointerLight.color = _pointerLightColorNoHit;
                     //}
+>>>>>>> 7fdb22636fd677fb9926b2a7e724ddf5757a1382
                     UpdatePointer(hit[0].point);
                 }
                 else
                 {
+<<<<<<< HEAD
+                    _lastButtonHit = null;
+                    ClearPointer();
+=======
                     Debug.Log("Did not hit");
                     //_lastButtonHit = null;
                     ClearPointer();
@@ -169,6 +224,7 @@ namespace MagicLeap
                         }
                     }
                     
+>>>>>>> 7fdb22636fd677fb9926b2a7e724ddf5757a1382
                 }
             }
             else if (_isGrabbing)
@@ -200,7 +256,11 @@ namespace MagicLeap
             Vector3 pointerScale = _pointerRay.localScale;
             pointerScale.z = 1.0f;
             _pointerRay.localScale = pointerScale;
+<<<<<<< HEAD
+
+=======
             
+>>>>>>> 7fdb22636fd677fb9926b2a7e724ddf5757a1382
             _pointerLight.transform.position = transform.position;
             _pointerLight.color = _pointerLightColorNoHit;
         }
