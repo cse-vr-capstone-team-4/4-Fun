@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:ml="magicleap" ml:package="com.company.hellocube" ml:version_code="1" ml:version_name="">
+  <application ml:visible_name="4fun_local" ml:sdk_version="1.0">
+    <uses-privilege ml:name="LowLatencyLightwear" />
+    <component ml:name=".fullscreen" ml:visible_name="4fun_local" ml:binary_name="bin/Player.elf" ml:type="Fullscreen">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+  </application>
+</manifest>
