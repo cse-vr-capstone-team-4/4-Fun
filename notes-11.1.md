@@ -25,7 +25,9 @@
 4. ray cast has a hit, hight light the target island.
 - VirtualPointer.cs  — for highlight/not
 - copy over to scripts/
-- check whether raycast is good
+- check whether raycast is good 
+	- if a hit, get the hit gameobject's outline and enable it 
+	- if no hit, disable all outlines
 - some code
                 // RayCast                 
 		// RayCastAll
@@ -49,11 +51,12 @@
 	   if (!o.isActiveAndEnabled)                         
 		o.enabled = true;
 ```
+Q: - how to change the attached script?
 	
 
 ### Problems:
 * Where does inputController come from?
-	In `Assets/MagicLeap/Examples/Scenes`
+	In `Assets/MagicLeap/Examples/Scenes/MediaPlayer`
 	
 * How to scale the effects?
 

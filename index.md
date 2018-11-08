@@ -37,11 +37,15 @@ ___
 #### RTS Battle
 **Introduction**: 
 
+We deployed and tested both our chosen RTS engine as well as our initial design of the combined scene. RTS works quite well as all soldiers look good and have good animations but we need to figure out to dynamically spwan them and to help them travel between islands. The design also goes well as we combined two scenes and rendered a bit to have our inital layout finished. And we figured out the zoom in/out, highlight outline, and display control ray on the combined scene. But we need to work further on the interaction between control ray and islands.
+
+**Progress**: 
+
+We studied the documentation of RTS and deployed it to the Magic Leap to see who it works. Given a path and a number of soldiers to release at the start, there will be various soldiers with good actions fighting with enemies and destroying the castle:
+
 ![Week 5 RTS Action](week5/week5_good_action.png)
 
 ![Week 5 Castle Destruction](week5/week5_destroy_castle.png)
-
-**Progress**: 
 
 We finished initial island design with assets. We made some modifications to the original design, i.e. making lands to floating islands, adjusting their scales and rotations. Then we combined two scenes and built the combined scene and deployed it to the magic leap successfully. For now, we have a home island and 4 enemy islands around it:
 
@@ -49,13 +53,15 @@ We finished initial island design with assets. We made some modifications to the
 
 ![Week 5 Islands Initial Design 2](week5/week5_Islands_Initial_Design2.png)
 
-Then, we made the outline of a single island possible. Once enabled, 1 out of 5 islands could be highlighted in yellow. The entire island could be shown as selected to make the interaction between ray and island happen.
+Then, we made the outline of a single island possible. Once enabled, 1 out of 5 islands could be highlighted in yellow. The entire island could be shown as selected to make the interaction between ray and island happen. When the island is selected, it's outline is being highlighted as shown below:
 
 ![Week 5 Island_Outline 1](week5/week5_outline1.png)
 
 ![Week 5 Island Outline 2](week5/week5_outline2.png)
 
-We also display the controller in our view and users can see a ray coming out of the controller clearly. So it helps with the island selection.
+![Week 5 Island Highlight](week5/week5_red_outline.png)
+
+We also display the controller in our view and users can see a ray coming out of the controller clearly. So it helps with the island selection:
 
 ![Week 5 Controller Visualization 1](week5/week5_Controller_visualization.png)
 
@@ -88,6 +94,8 @@ We also display the controller in our view and users can see a ray coming out of
 ![Week 4 Screenshot](week4/week4screenshot.jpg)
 
 After setting up the scene of our game, the next thing that we do was to figure out how to connect the Magic Leap controller to our current scene, so that player could have some simple interactions with the island. With the help of faculty, we sucessfully achieved one of the key feature of the game, "Zoom in and Zoom out" of the island. That means that when the player click the bumper on the controller, the island can either gradually move away from the player or approach the player until he is in the middle of this island. However, current "Zoom in and Zoom out" can only be applied to just one island, so the "Zoom in and Zoom out" still need further improvement in the future.
+
+![week4_Zoom_In/Out](week4/week4_Zoom_in_out.png)
 
 **Plan for next week**: Next week we plan to dive more into the "RTS" aspect of things. We want to experiment with adding units in some form to the islands. We'll try to implement some of the character models we plan to purchase and see if we can get them walking around. We also want to become a lot more familiar with how our chosen RTS engine will work. If we can understand the engine well then that will enable us to implement more complexity and more interesting gameplay. 
 
