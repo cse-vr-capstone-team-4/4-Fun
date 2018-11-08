@@ -53,7 +53,7 @@
 
 ### Problems:
 * Where does inputController come from?
-	In `Assets/MagicLeap/Examples/Scenes`
+	In `Assets/MagicLeap/Examples/Scenes/MediaPlayer`
 	
 * How to scale the effects?
 
