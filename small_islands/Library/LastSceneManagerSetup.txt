@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/PolygonMini_Fantasy/Demo/Demo_Hex_Islands.unity
-  isLoaded: 1
-  isActive: 1
