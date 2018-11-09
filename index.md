@@ -33,6 +33,21 @@ Coming soon
 ___
 
 ## Weekly Blog Posts
+### Week 6
+**Introduction**:
+
+We deployed and tested spawning units using RTS engine, raycasting, and zoom in/out of overview to close up to first person view. According to our milestone we should have smooth transaction of zoom in and out, and we should be looking into the RTS engine. And after week 6, we have accomplished our milestones and in addition we have figured out raycasting and highlight selecting island. Although we have not combined the three parts mentioned above, but each individual part can be build and run on magic leap. 
+
+**Progress**: 
+
+We figured out one of our critical feature smooth zooming in and out of three islands (1 main island and 2 smaller islands). There are three camera position of zooming in/out: overview, close up, and first person. For each islands the user has the option of any of the three positions mentioned above, but the restriction is that zooming in needs to follow the order respectively. I.e. the user cannot zoom in to first person view without zooming into close up view first. But the user can zoom out from whichever position he chooses. This is one of the critical features of our game because we want to give the user complete experience of our game. One of the chanllenge is the structure of the code that manages the three different views. Since we did different views and islands seperately, it caused a lot of redundancy. Fixing the structure of the code can also make combining with raycasting easier. 
+
+**Plan for next week per person**:
+- Anny Kong: 
+- Charles Mihran:
+- Xiuxing Lao:
+- Yuyang Ge: combine zooming with units and raycasting. 
+
 ### Week 5
 #### RTS Battle
 **Introduction**: 
