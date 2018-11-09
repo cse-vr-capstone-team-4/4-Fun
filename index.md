@@ -42,8 +42,10 @@ We deployed and tested spawning units using RTS engine, raycasting, and zoom in/
 
 We figured out one of our critical feature smooth zooming in and out of three islands (1 main island and 2 smaller islands). There are three camera position of zooming in/out: overview, close up, and first person. For each islands the user has the option of any of the three positions mentioned above, but the restriction is that zooming in needs to follow the order respectively. I.e. the user cannot zoom in to first person view without zooming into close up view first. But the user can zoom out from whichever position he chooses. This is one of the critical features of our game because we want to give the user complete experience of our game. One of the chanllenge is the structure of the code that manages the three different views. Since we did different views and islands seperately, it caused a lot of redundancy. Fixing the structure of the code can also make combining with raycasting easier. 
 
+We figured out another main feature--raycast to hightlight. We had the outline working last week. But the merge of RTS, zoom in/out and highlight messed up the repo and confused the unity. So it took a bunch of time to debug and eliminate errors caused by the merge. Luckily, we have the Debug.Log() working on mldb to help with the hit made by interaction of the raypointer and the object. We found out the collider was missing and tried with the box collider as well as a mesh collider. Finally by enabling the read/write feature of each model our scene is using, and adding a mesh collider to each scene, the raycast feature works smoothly. The outline shows up once we point the controller's ray at the island, it clears once the controller turns away.
+
 **Plan for next week per person**:
-- Anny Kong: 
+- Anny Kong: Help with the merge work and look into the effects.
 - Charles Mihran:
 - Xiuxing Lao:
 - Yuyang Ge: combine zooming with units and raycasting. 
