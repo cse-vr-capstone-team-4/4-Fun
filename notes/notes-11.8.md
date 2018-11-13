@@ -4,6 +4,11 @@
 
 ```
 mldb log *:S Unity:D islands:D
+
+```
+- pull videos from magic leap
+```
+mldb pull -D /C1/videos
 ```
 
 - outline working
