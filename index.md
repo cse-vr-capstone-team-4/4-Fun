@@ -41,10 +41,11 @@ We've merged a lot of our core features such as spawning units, ray casting, out
 
 **Progress**: 
 
+One of the biggest issues we've ran into this week is when we tried to combine the spawning of units with the zooming/scaling feature. The RTS units need a NavMesh to walk around and attack other units on their battle field. This worked fine when we were trying to deploy units to a static, non-moving non-scaling island. However, when we added the zooming and scaling it became apparent that the NavMesh does not follow the island/land it is linked to but instead stays static in the game world. We were able to fix this by adding an extra NavMesh asset and script to the islands that will bake the NavMesh at runtime. However, this hasn't totally fixed our issue since Unity won't bake NavMeshs that are under a certain size, and we scale our islands below this size. So we have to figure out how we want to proceed with scaling and zooming, or find a workaround for this issue. Another issue with this is the agent sizes, we have to figure out how to change the settings for the units NavMesh Agents so that the agents scale with the NavMesh size.
 
 **Plan for next week per person**:
 - Anny Kong: 
-- Charles Mihran:
+- Charles Mihran: work on NavMesh issue, then enemy unit spawning scheme
 - Xiuxing Lao:
 - Yuyang Ge: 
 
