@@ -43,11 +43,13 @@ We've merged a lot of our core features such as spawning units, ray casting, out
 
 One of the biggest issues we've ran into this week is when we tried to combine the spawning of units with the zooming/scaling feature. The RTS units need a NavMesh to walk around and attack other units on their battle field. This worked fine when we were trying to deploy units to a static, non-moving non-scaling island. However, when we added the zooming and scaling it became apparent that the NavMesh does not follow the island/land it is linked to but instead stays static in the game world. We were able to fix this by adding an extra NavMesh asset and script to the islands that will bake the NavMesh at runtime. However, this hasn't totally fixed our issue since Unity won't bake NavMeshs that are under a certain size, and we scale our islands below this size. So we have to figure out how we want to proceed with scaling and zooming, or find a workaround for this issue. Another issue with this is the agent sizes, we have to figure out how to change the settings for the units NavMesh Agents so that the agents scale with the NavMesh size.
 
+The other two important features we combined this week is ray-casting and zoom in/out. Our goal is to zoom into an island chose by the user, and since ray-cast lets user choose any floating islands in the scene, we had to combine the two features. One of the most challenging aspect of combining the two features is to get the object where ray-cast last hit. The two features are implemented in different files, so that one file needs to get a public field shared by the other file. We tried many things including moving the two files under the same parent folder, making the last-hit-object field serialized so that it’ll show up on the “inspector” column. Eventually we created a new public GameObject field, and use MagicLeap.VirtualPointer.island (VirtualPointer being the name of the file, island being the name of the public field) to get access to the last-hit-GameObject. After combining these two features, one of our critical features – island navigation is finished. 
+
 **Plan for next week per person**:
 - Anny Kong: 
 - Charles Mihran: work on NavMesh issue, then enemy unit spawning scheme
 - Xiuxing Lao:
-- Yuyang Ge: 
+- Yuyang Ge: work on resources generation and scale of the scene to that can be used in NavMesh
 
 ### Week 6
 **Introduction**:
