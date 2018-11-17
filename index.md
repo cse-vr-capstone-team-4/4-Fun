@@ -37,7 +37,7 @@ ___
 ### Week 7
 **Introduction**:
 
-
+We've merged a lot of our core features such as spawning units, ray casting, outlines, and zooming. We have a basic minimum viable product that needs a lot of polish to get all our current features working smoothly and needs additional features to make the game more interesting. We've run into some technical issues too while merging our features that we are working to resolve too.
 
 **Progress**: 
 
