@@ -33,6 +33,21 @@ Coming soon
 ___
 
 ## Weekly Blog Posts
+
+### Week 7
+**Introduction**:
+
+
+
+**Progress**: 
+
+
+**Plan for next week per person**:
+- Anny Kong: 
+- Charles Mihran:
+- Xiuxing Lao:
+- Yuyang Ge: 
+
 ### Week 6
 **Introduction**:
 
