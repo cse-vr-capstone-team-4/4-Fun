@@ -33,6 +33,27 @@ Coming soon
 ___
 
 ## Weekly Blog Posts
+### Week 9
+**Introduction**:
+We have accomplished some additional features like menu, collecting resources, and spawning soldiers. We are still working on the transportation of soldiers. We also primarily merged menu and collecting resources as the menu can increment and decrement when we collect or use a resource (crate).
+
+**Progress**: 
+
+In the menu part, for simplicity, we only show one soldier currently. When the button is pressed and the resource is found and collected, 1) the text on the menu will be outlined, the resource will disappear and a soldier will appear 2) the soldier will disppear and the amount will be added to the text on the menu (Without animation, but this process 1),2) is defined as collecting the resource). Then by pressing the trigger, we will spawn a soldier at some place. 
+
+![Week 9 Menu](week9/week9_menu.png)
+
+By fixing the issue created by the lags and navmesh, we decided to disable the navmesh and use just the archor. Because by its default setting, it does not need to move around and could do attaching by standing at the same poing.
+
+One of the biggest issues we ran into this week is when we tried to collect resource, it does not allow us to collect it a second time. By debugging with `mldb log`, we found the crate respawned after 20 seconds can not be selected by the raycast anymore. As the raycast does not allow us to select and open the resource for a second time, we need to figure out the reason why it is not working. And, we are still working on that.
+
+Another issue we ran into is that it is super hard to find crate as it is so small and it can natually fit in the scene as a decoration. The solution we applied is to outline it to make it more obvious to players. Then as we tried to move the raylight onto it, it only outlines the island instead of the crate. And we believe it is because the island has higher priority in the layer than the crate.
+
+**Plan for next week per person**:
+- Anny Kong: finish up and solving the issues with the highlight
+- Charles Mihran: 
+- Xiuxing Lao:
+- Yuyang Ge: 
 
 ### Week 7
 **Introduction**:
@@ -46,7 +67,7 @@ One of the biggest issues we've ran into this week is when we tried to combine t
 The other two important features we combined this week is ray-casting and zoom in/out. Our goal is to zoom into an island chose by the user, and since ray-cast lets user choose any floating islands in the scene, we had to combine the two features. One of the most challenging aspect of combining the two features is to get the object where ray-cast last hit. The two features are implemented in different files, so that one file needs to get a public field shared by the other file. We tried many things including moving the two files under the same parent folder, making the last-hit-object field serialized so that it’ll show up on the “inspector” column. Eventually we created a new public GameObject field, and use MagicLeap.VirtualPointer.island (VirtualPointer being the name of the file, island being the name of the public field) to get access to the last-hit-GameObject. After combining these two features, one of our critical features – island navigation is finished. 
 
 **Plan for next week per person**:
-- Anny Kong: 
+- Anny Kong: Working on the menu
 - Charles Mihran: work on NavMesh issue, then enemy unit spawning scheme
 - Xiuxing Lao:
 - Yuyang Ge: work on resources generation and scale of the scene to that can be used in NavMesh
