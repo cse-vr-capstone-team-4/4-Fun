@@ -52,7 +52,7 @@ Another issue we ran into is that it is super hard to find crate as it is so sma
 **Plan for next week per person**:
 - Anny Kong: finish up and solving the issues with the highlight
 - Charles Mihran: 
-- Xiuxing Lao:
+- Xiuxing Lao: Final Polish of the game
 - Yuyang Ge: 
 
 ### Week 7
@@ -69,7 +69,7 @@ The other two important features we combined this week is ray-casting and zoom i
 **Plan for next week per person**:
 - Anny Kong: Working on the menu
 - Charles Mihran: work on NavMesh issue, then enemy unit spawning scheme
-- Xiuxing Lao:
+- Xiuxing Lao: Work on the Transportation of the soldier
 - Yuyang Ge: work on resources generation and scale of the scene to that can be used in NavMesh
 
 ### Week 6
@@ -86,7 +86,7 @@ We figured out another main feature--raycast to hightlight. We had the outline w
 **Plan for next week per person**:
 - Anny Kong: Help with the merge work and look into the effects.
 - Charles Mihran:
-- Xiuxing Lao:
+- Xiuxing Lao: Spawning strategy of the enemy and game play
 - Yuyang Ge: combine zooming with units and raycasting. 
 
 ### Week 5
