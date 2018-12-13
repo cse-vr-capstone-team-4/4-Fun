@@ -28,7 +28,6 @@ ___
 ___
 
 ## Hype/Demo video
-[Island Warefare Demo2: Raycast and Zoom in/out](https://www.youtube.com/watch?v=bo-tA0yTbEs)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gscdc8W2Xsw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ___
 
