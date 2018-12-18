@@ -32,6 +32,12 @@ ___
 ___
 
 ## Weekly Blog Posts
+### Week 10
+We added new features like starting and ending screens. We made the transportation of barrels work. We added notification for zoomout ready to make it easier for players. We as well added the display of the current view including Overview, CloseUp, and First Person.
+
+![Week 10 Zoomout-ready & Current view](week10/zoomout-ready.png)
+![Week 10 Mission 1](week10/Mission1-example.png)
+
 ### Week 9
 **Introduction**:
 We have accomplished some additional features like menu, collecting resources, and spawning soldiers. We are still working on the transportation of soldiers. We also primarily merged menu and collecting resources as the menu can increment and decrement when we collect or use a resource (crate).
