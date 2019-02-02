@@ -5,6 +5,7 @@
 [Unity Code](https://github.com/cse-vr-capstone-team-4/UnityProject) |
 [Product Requirement Documents](https://docs.google.com/document/d/1tK8rWAsgP0X3kz5zsiT1drsX3x8JszOWKTgnmHstGJ0/edit?usp=sharing) |
 [Demo2](https://www.youtube.com/watch?v=bo-tA0yTbEs)
+[Demo3](https://www.youtube.com/watch?time_continue=5&v=gscdc8W2Xsw)
 
 ![Islands Initial Design](week5/week5_Islands_Initial_Design2.png)
 
